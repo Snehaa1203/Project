@@ -1,0 +1,16 @@
+{%extends 'main.html'%}
+{% load static %}
+{%block content%}
+
+<ul class="list-group">
+<div>
+{%for item in object%}
+  <li class="list-group-item d-flex justify-content-around flex-direction: column align-items-md-stretch ">
+    {{item.name}}
+	<button type="button" class="btn btn-secondary btn-sm">{{item.quantity}}</button>
+
+  </li>
+{%endfor %}
+</div>
+</ul>
+{%endblock%}
