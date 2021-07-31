@@ -19,7 +19,9 @@ It's a Django Application which consists of :
 
 ![image](https://user-images.githubusercontent.com/77047835/127746447-9773633a-b657-4feb-ae71-6cd900c55ce3.png)
 
- Also, it has 3 users:
+Created a virtual environment (env) to freeze the requirements of application.
+
+Also, it has 3 users:
 1. sneha ( password- sneha123)
 2. Mark  ( password- sneha123)
 3. Sanchit ( password- sneha123)
